@@ -127,3 +127,27 @@
 .engineering-section-container ul li a:hover {
   color: #e03740;
 }
+
+.markets-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  gap: 48px;
+  padding-block: 112px;
+}
+
+.markets-section-container h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #141515;
+}
+
+.markets-section-row-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 4px;
+}
