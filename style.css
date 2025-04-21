@@ -218,3 +218,871 @@
   font-weight: 300;
   font-size: 16px;
 }
+
+@media only screen and (min-width: 1201px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 16px;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    font-size: 12px;
+    padding: 15px 24px;
+    border: 0.5px solid #ffffff;
+    background-color: transparent;
+  }
+
+  .header-container button i {
+    padding-left: 12px;
+  }
+
+  .header-container button:hover {
+    border: 0.5px solid #e03740;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 1152px;
+    margin: auto;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+  }
+
+  .hero-container h1 {
+    font-size: 80px;
+    line-height: 80px;
+    width: 751px;
+    padding: 201px 0 262px 0;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 64px;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1152px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 112px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 4px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-block: 74px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 16px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 56px;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 16px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1201px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 16px;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    font-size: 12px;
+    padding: 15px 24px;
+    border: 0.5px solid #ffffff;
+    background-color: transparent;
+  }
+
+  .header-container button i {
+    padding-left: 12px;
+  }
+
+  .header-container button:hover {
+    border: 0.5px solid #e03740;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 917px;
+    margin: auto;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-container h1 {
+    font-size: 70px;
+    line-height: 70px;
+    width: 751px;
+    padding: 190px 0 252px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 100px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 64px;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 940px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 112px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-block: 64px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 16px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 56px;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 16px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 993px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 14px;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 10px;
+  }
+
+  .header-container button {
+    font-size: 10px;
+    padding: 13px 21px;
+    border: 0.5px solid #ffffff;
+    background-color: transparent;
+  }
+
+  .header-container button i {
+    padding-left: 10px;
+  }
+
+  .header-container button:hover {
+    border: 0.5px solid #e03740;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 717px;
+    margin: auto;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-container h1 {
+    font-size: 60px;
+    line-height: 60px;
+    width: 651px;
+    padding: 170px 0 242px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 90px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 30px;
+    line-height: 30px;
+    padding-bottom: 60px;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 717px;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 16px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 12px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 112px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-block: 54px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 30px;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 16px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 16px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 769px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 12px;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 10px;
+  }
+
+  .header-container button {
+    font-size: 10px;
+    padding: 13px 21px;
+    border: 0.5px solid #ffffff;
+    background-color: transparent;
+  }
+
+  .header-container button i {
+    padding-left: 10px;
+  }
+
+  .header-container button:hover {
+    border: 0.5px solid #e03740;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 547px;
+    margin: auto;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-container h1 {
+    font-size: 50px;
+    line-height: 50px;
+    width: 451px;
+    padding: 160px 0 230px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 80px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 28px;
+    line-height: 28px;
+    padding-bottom: 50px;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 570px;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 14px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 11px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 44px;
+    padding-block: 80px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+  }
+
+  .footer-container {
+    display: flex;
+    padding-block: 44px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 30px;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 14px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 577px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 437px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 334px;
+    padding: 154px 0 235px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 40px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    width: 282px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 40px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .markets-section-row-one img {
+    width: 343px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 16px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header-and-main {
+    background: url(./images/bg-img.svg) no-repeat center/cover;
+  }
+
+  .header-container {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .header-container nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .header-container nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  .header-and-main hr {
+    border: 0.5px solid #ffffff;
+    width: 295px;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+    line-height: 44px;
+    width: 334px;
+    padding: 154px 0 235px 0;
+  }
+
+  .engineering-section-container {
+    padding-block: 40px;
+  }
+
+  .engineering-section-container h3 {
+    font-size: 32px;
+    line-height: 32px;
+    padding-bottom: 32px;
+    width: 282px;
+    margin: auto;
+  }
+
+  .engineering-section-container ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto;
+    gap: 16px;
+  }
+
+  .engineering-section-container ul li a {
+    font-size: 18px;
+  }
+
+  .engineering-section-container ul li a span {
+    font-size: 14px;
+  }
+
+  .markets-section-container {
+    display: flex;
+    gap: 48px;
+    padding-block: 40px;
+  }
+
+  .markets-section-container h4 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .markets-section-row-one {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .markets-section-row-one img {
+    width: 297px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-block: 32px;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .footer-col-one {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col-one div h5 {
+    font-size: 11px;
+  }
+
+  .footer-col-one div ul {
+    display: flex;
+    gap: 12px;
+    padding-top: 14px;
+  }
+
+  .footer-col-one div ul li {
+    list-style: none;
+  }
+
+  .footer-col-one div ul li a {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer-col-two {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer-col-two div h5 {
+    font-size: 12px;
+  }
+
+  .footer-col-two div div {
+    padding-top: 16px;
+    font-size: 16px;
+  }
+
+  .footer-col-two div p {
+    padding-top: 16px;
+  }
+
+  .footer-col-two div p a {
+    font-size: 16px;
+  }
+}
